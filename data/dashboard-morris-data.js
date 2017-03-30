@@ -1,21 +1,5 @@
 $(function() {
 
-
-    Morris.Donut({
-        element: 'morris-donut-chart',
-        data: [{
-            label: "Facebook Likes",
-            value: 1200
-        }, {
-            label: "Twitter Likes",
-            value: 3076
-        }, {
-            label: "Instagram Likes",
-            value: 200
-        }],
-        resize: true
-    });
-
     Morris.Bar({
         element: 'morris-bar-chart',
         data: [{
