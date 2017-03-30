@@ -156,13 +156,19 @@
                             <a href="campaigns.html"><i class="fa fa-tasks fa-fw"></i> My Campaigns</a>
                         </li>
                         <li>
+<<<<<<< HEAD
+                            <a href="causes.html"><i class="fa fa-gift fa-fw"></i> Market Insights</a>
+                        </li>
+                        <li>
+=======
+>>>>>>> master
                             <a href="customers.html"><i class="fa fa-users fa-fw"></i> Customers</a>
                         </li>
                         <li>
                             <a href="sales.html"><i class="fa fa-shopping-cart fa-fw"></i> Sales</a>
                         </li>
                         <li>
-                            <a href="causes.html"><i class="fa fa-gift fa-fw"></i> Market Insights</a>
+                            <a href="causes.html"><i class="fa fa-gift fa-fw"></i> Causes</a>
                         </li>
                     </ul>
                 </div>
