@@ -34,17 +34,17 @@ $(function() {
         element: 'morris-donut-chart',
         data: [{
             label: "H&S Foundation",
-            value: 27
+            value: 2700
         }, {
             label: "Humane Society",
-            value: 30
+            value: 3000
         }, {
             label: "Alzheimer Society",
-            value: 7
+            value: 700
         },
         {
             label: "Homeless Foundation",
-            value: 4
+            value: 400
         }],
         resize: true
     });
