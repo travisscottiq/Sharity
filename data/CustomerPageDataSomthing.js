@@ -2,14 +2,14 @@ $(function() {
       Morris.Donut({
         element: 'socialMediaDonut',
         data: [{
-            label: "Twitter",
-            value: 12
+            label: "Facebook Likes",
+            value: 1200
         }, {
-            label: "Facebook",
-            value: 30
+            label: "Twitter Likes",
+            value: 3076
         }, {
-            label: "Instagram",
-            value: 55
+            label: "Instagram Likes",
+            value: 200
         }],
         resize: true
     });
