@@ -1,19 +1,22 @@
 $(function() {
 
+
     Morris.Bar({
         element: 'ongoing-campaign-chart',
         data: [{
-            y: 'March Donations',
-            a: 1233,
-            b: 1575
+            y: 'Customer',
+            a: 23500
+        }, {
+            y: 'Store',
+            a: 11500
         }],
         xkey: 'y',
-        ykeys: ['a', 'b'],
-        labels: ['Store ($)', 'Customers ($)'],
+        ykeys: ['a'],
+        labels: ['Amount Contributed'],
         hideHover: 'auto',
         resize: true
     });
-    
+
     Morris.Bar({
         element: 'previous-campaign-chart',
         data: [{
