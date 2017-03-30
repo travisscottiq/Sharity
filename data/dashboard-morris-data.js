@@ -5,13 +5,13 @@ $(function() {
         element: 'morris-donut-chart',
         data: [{
             label: "Facebook Likes",
-            value: 12
+            value: 1200
         }, {
             label: "Twitter Likes",
-            value: 30
+            value: 3076
         }, {
             label: "Instagram Likes",
-            value: 20
+            value: 200
         }],
         resize: true
     });
