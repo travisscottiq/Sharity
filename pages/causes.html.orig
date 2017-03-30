@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sharity - Customers</title>
+    <title>Sharity - Market Insights</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,12 +22,6 @@
 
     <!-- Morris Charts CSS -->
     <link href="../vendor/morrisjs/morris.css" rel="stylesheet">
-
-    <!-- DataTables CSS -->
-    <link href="../vendor/datatables-plugins/dataTables.bootstrap.css" rel="stylesheet">
-
-    <!-- DataTables Responsive CSS -->
-    <link href="../vendor/datatables-responsive/dataTables.responsive.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -162,13 +156,19 @@
                             <a href="campaigns.html"><i class="fa fa-tasks fa-fw"></i> My Campaigns</a>
                         </li>
                         <li>
+<<<<<<< HEAD
+                            <a href="causes.html"><i class="fa fa-gift fa-fw"></i> Market Insights</a>
+                        </li>
+                        <li>
+=======
+>>>>>>> master
                             <a href="customers.html"><i class="fa fa-users fa-fw"></i> Customers</a>
                         </li>
                         <li>
                             <a href="sales.html"><i class="fa fa-shopping-cart fa-fw"></i> Sales</a>
                         </li>
                         <li>
-                            <a href="causes.html"><i class="fa fa-gift fa-fw"></i> Market Insights</a>
+                            <a href="causes.html"><i class="fa fa-gift fa-fw"></i> Causes</a>
                         </li>
                     </ul>
                 </div>
@@ -177,150 +177,101 @@
             <!-- /.navbar-static-side -->
         </nav>
 
-
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Customers</h1>
+                    <h1 class="page-header">Market Insights</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
+            <!-- /.row -->
             <div class="row">
-            <div class="col-lg-8">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <i class="fa fa-money fa-fw"></i> Contributors
-                    </div>
-                    <!-- /.panel-heading -->
-                    <div class="panel-body">
+                <div class="col-lg-8">
 
-                        <table class="table table-striped table-bordered table-hover" id="dataTables-example">
-                            <thead>
-                               <tr>
-                                   <th>Selected</th>
-                                   <th>Name</th>
-                                   <th>Phone Number</th>
-                                   <th>Donated</th>
-                               </tr>
-                           </thead>
-                           <tbody>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>Travis Scott</td>
-                                    <td>204-911-2345</td>
-                                    <td>$500</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>Emily Baxter</td>
-                                    <td>204-222-2222</td>
-                                    <td>$490</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>Emily Baxter</td>
-                                    <td>204-222-2222</td>
-                                    <td>$490</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>Steven Snowden</td>
-                                    <td>204-451-2790</td>
-                                    <td>$423</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>David Harms</td>
-                                    <td>204-322-9855</td>
-                                    <td>$411</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>Glenn Bewcyk</td>
-                                    <td>204-665-5577</td>
-                                    <td>$383</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>David Kendrick</td>
-                                    <td>204-554-5544</td>
-                                    <td>$321</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>Chris Cardwell</td>
-                                    <td>204-998-3254</td>
-                                    <td>$265</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>Brian Yeo</td>
-                                    <td>204-855-3876</td>
-                                    <td>$211</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>Lillian Wu</td>
-                                    <td>204-442-1076</td>
-                                    <td>$187</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <!-- /.list-group -->
-                        <a href="#" class="btn btn-default btn-block">Send Promotion</a>
-                        <a href="#" class="btn btn-default btn-block">View All Contributors</a>
-                    </div>
-                    <!-- /.panel-body -->
-                </div>
-                <!-- /.panel -->
-
-            </div>
-
-            <div class="col-lg-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <i class="fa fa-heart fa-fw"></i> Social Media Follows
-                    </div>
-                    <!-- /.panel-heading -->
-                    <div class="panel-body">
-                        <div id="socialMediaDonut"></div>
-                    </div>
-                    <!-- /.panel-body -->
-                </div>
-                <!-- /.panel -->
-
-                <div class="col-lg-12">
+                    <!-- /.panel -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <i class="fa fa-users fa-fw"></i> Customer Heatmap
+                            <i class="fa fa-arrow-up fa-fw"></i>
+                            Top Causes by Donations
                         </div>
                         <!-- /.panel-heading -->
-
                         <div class="panel-body">
-                            <div class="form-group col-lg-12">
-                                <select class="form-control pic-chooser">
-                                    <option value="0" selected>Top Customers</option>
-                                    <option value="1">Consumers Not Engaged</option>
-                                </select>
+                            <div class="flot-chart">
+                                <div class="flot-chart-content" id="flot-pie-chart"></div>
                             </div>
                         </div>
-                        <div class = "col-lg-1">
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-credit-card fa-fw"></i> Yearly Contributions
+                            <div class="pull-right">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                        H&S Foundation
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu pull-right" role="menu">
+                                        <li><a href="#">H&S Foundation</a>
+                                        </li>
+                                        <li><a href="#">Humane Society</a>
+                                        </li>
+                                        <li><a href="#">Alzheimer Society</a>
+                                        </li>
+                                        <li><a href="#">Homeless Foundation</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                      <img id="heat-map-img" src="../data/heatmap1.jpg" width="80%">
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="row">
+                                <!-- /.col-lg-4 (nested) -->
+                                <div class="col-lg-12">
+                                    <div id="morris-bar-chart"></div>
+                                </div>
+                                <!-- /.col-lg-8 (nested) -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-8 -->
+                <div class="col-lg-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <i class="fa fa-search fa-fw"></i> Find a Cause
+                            <div class="pull-right">
+                                <i class="fa fa-plus add-create"></i>
+                            </div>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            Need to find a Cause?  Look for one here!
+                        </div>
                         <!-- /.panel-body -->
                     </div>
 
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-users fa-fw"></i> Contributors By Cause
+                        </div>
+                        <div class="panel-body">
+                            <div id="morris-donut-chart"></div>
+                            <a href="#" class="btn btn-default btn-block">View Details</a>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
                 </div>
-
+                <!-- /.col-lg-4 -->
             </div>
-            <!-- /.col-lg-6 -->
-
-            <div class="row">
-
-            </div>
-        </div>
-            </div>
+            <!-- /.row -->
         </div>
         <!-- /#page-wrapper -->
 
@@ -339,25 +290,20 @@
     <!-- Morris Charts JavaScript -->
     <script src="../vendor/raphael/raphael.min.js"></script>
     <script src="../vendor/morrisjs/morris.min.js"></script>
-    <script src="../data/customerPageDataSomthing.js"></script>
-    <script src="../data/changepicture.js"></script>
+    <script src="../data/causes-morris-data.js"></script>
+
+    <!-- Flot Charts JavaScript -->
+    <script src="../vendor/flot/excanvas.min.js"></script>
+    <script src="../vendor/flot/jquery.flot.js"></script>
+    <script src="../vendor/flot/jquery.flot.pie.js"></script>
+    <script src="../vendor/flot/jquery.flot.resize.js"></script>
+    <script src="../vendor/flot/jquery.flot.time.js"></script>
+    <script src="../vendor/flot-tooltip/jquery.flot.tooltip.min.js"></script>
+    <script src="../data/top-cause-by-donation.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="../dist/js/sb-admin-2.js"></script>
 
-    <!-- DataTables JavaScript -->
-    <script src="../vendor/datatables/js/jquery.dataTables.min.js"></script>
-    <script src="../vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
-    <script src="../vendor/datatables-responsive/dataTables.responsive.js"></script>
-
-    <script>
-    $(document).ready(function() {
-        $('#dataTables-example').DataTable({
-            responsive: true
-        });
-    });
-    </script>
 </body>
-
 
 </html>
